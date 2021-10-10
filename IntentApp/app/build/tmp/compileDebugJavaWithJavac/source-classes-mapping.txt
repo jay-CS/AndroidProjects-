@@ -1,0 +1,4 @@
+edu/android/intentapp/BuildConfig.java
+ edu.android.intentapp.BuildConfig
+edu/android/intentapp/MainActivity.java
+ edu.android.intentapp.MainActivity

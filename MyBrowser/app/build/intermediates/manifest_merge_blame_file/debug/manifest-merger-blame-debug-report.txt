@@ -1,0 +1,69 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.android.mybrowser"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="30"
+8-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:4:5-66
+11-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:5:5-30:19
+14        android:allowBackup="true"
+14-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:6:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.5.0] /Users/sloth/.gradle/caches/transforms-2/files-2.1/cc5e9dcdc56dc39042f72c501235e83f/core-1.5.0/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:extractNativeLibs="false"
+18        android:icon="@mipmap/ic_launcher"
+18-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:7:9-43
+19        android:label="@string/app_name"
+19-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:8:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:9:9-54
+21        android:supportsRtl="true"
+21-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:10:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.MyBrowser" >
+23-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:11:9-47
+24        <activity android:name="edu.android.mybrowser.MainActivity" >
+24-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:13:9-28:20
+24-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:13:19-47
+25            <intent-filter>
+25-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:16:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:17:17-68
+26-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:18:17-76
+28-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:18:27-74
+29            </intent-filter>
+30            <intent-filter>
+30-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:21:13-27:29
+31                <action android:name="android.intent.action.VIEW" />
+31-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:23:17-68
+31-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:23:25-66
+32
+33                <category android:name="android.intent.category.DEFAULT" />
+33-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:24:17-75
+33-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:24:27-73
+34                <category android:name="android.intent.category.BROWSABLE" />
+34-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:25:17-77
+34-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:25:27-75
+35
+36                <data android:scheme="http" />
+36-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:26:17-46
+36-->/Users/sloth/AndroidStudioProjects/MyBrowser/app/src/main/AndroidManifest.xml:26:23-44
+37            </intent-filter>
+38        </activity>
+39    </application>
+40
+41</manifest>

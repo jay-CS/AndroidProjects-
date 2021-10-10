@@ -1,0 +1,4 @@
+edu/android/mybrowser/BuildConfig.java
+ edu.android.mybrowser.BuildConfig
+edu/android/mybrowser/MainActivity.java
+ edu.android.mybrowser.MainActivity
