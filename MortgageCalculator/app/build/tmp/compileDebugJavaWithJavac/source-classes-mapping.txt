@@ -1,0 +1,6 @@
+edu/android/mortgagecalculator/BuildConfig.java
+ edu.android.mortgagecalculator.BuildConfig
+edu/android/mortgagecalculator/MainActivity.java
+ edu.android.mortgagecalculator.MainActivity
+ edu.android.mortgagecalculator.MainActivity$1
+ edu.android.mortgagecalculator.MainActivity$2

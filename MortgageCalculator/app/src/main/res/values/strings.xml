@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mortgage Calculator</string>
+    <string name="calc"> Calculate </string>
+    <string name="loanTerm"> Loan Term </string>
+    <string name="loanTerm1"> 15 months </string>
+    <string name="loanTerm2"> 20 months </string>
+    <string name="loanTerm3"> 30 months </string>
+    <string name ="Interest"> Interest Rate </string>
+    <string name ="insurance"> Include Insurance and Taxes </string>
+    <string name = "apr"> Annual Percentage Interest Rate </string>
+    <string name ="monthly"> Monthly Payment: </string>
+</resources>
