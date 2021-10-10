@@ -1,0 +1,6 @@
+edu/android/temperatureconverter/BuildConfig.java
+ edu.android.temperatureconverter.BuildConfig
+edu/android/temperatureconverter/ConverterUtil.java
+ edu.android.temperatureconverter.ConverterUtil
+edu/android/temperatureconverter/MainActivity.java
+ edu.android.temperatureconverter.MainActivity
