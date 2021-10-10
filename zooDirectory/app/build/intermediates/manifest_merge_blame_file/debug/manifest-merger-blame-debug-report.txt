@@ -1,0 +1,68 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.android.zoodirectory"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="30"
+8-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+11-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:4:5-81
+11-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:4:22-79
+12    <uses-permission android:name="android.permission.CALL_PHONE" />
+12-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:5:5-69
+12-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:5:22-66
+13
+14    <application
+14-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:7:5-28:19
+15        android:allowBackup="true"
+15-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:8:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.5.0] /Users/sloth/.gradle/caches/transforms-2/files-2.1/cc5e9dcdc56dc39042f72c501235e83f/core-1.5.0/AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:9:9-43
+20        android:label="@string/app_name"
+20-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:10:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:11:9-54
+22        android:supportsRtl="true"
+22-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:12:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.ZooDirectory" >
+24-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:13:9-50
+25        <activity android:name="edu.android.zoodirectory.MainActivity" >
+25-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:15:9-21:20
+25-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:15:19-47
+26            <intent-filter>
+26-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:16:13-20:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:17:17-69
+27-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:17:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:19:17-77
+29-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:19:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity android:name="edu.android.zoodirectory.AnimalActivity" >
+32-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:22:9-26:20
+32-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:22:19-49
+33            <intent-filter>
+33-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:23:13-25:29
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:19:17-77
+34-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:19:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity android:name="edu.android.zoodirectory.zoo_information" />
+37-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:27:9-52
+37-->/Users/sloth/AndroidStudioProjects/ZooDirectory/app/src/main/AndroidManifest.xml:27:19-50
+38    </application>
+39
+40</manifest>
